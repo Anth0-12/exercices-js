@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    
+<form action="">
+
+<div>
+
+<h1>Avez vous plus ou moins de 25 ans?</h1>
+
+    <label for="age" name="age">
+        Moins de 25 ans
+            <input type="radio" name="age" id="moins-age" required>
+
+    </label>
+
+    <label for="age" name="age">
+        Plus de 25 ans
+           <input type="radio" name="age" id="plus-age" required>
+       
+    </label>
+       
+
+<h2>Depuis combien de temps avez-vous votre permis?</h2>
+    <label for="permis" name="permis">
+        Moins de 2 ans
+            <input type="radio" name="permis" id="moins-permis" required>
+        
+    </label>
+
+    <label for="permis" name="permis">
+        Plus de 2 ans
+            <input type="radio" name="permis" id="plus-permis" required>
+        
+    </label>
+
+</div>
+
+
+<div>
+<h2>Combien d'accidents avez-vous eu?</h2>
+    <label for="accident" name="accident">
+        0 accident
+            <input type="radio" name="accident" id="aucun-accident" required>
+    
+    </label>
+
+    <label for="accident" name="accident">
+        1 accident
+            <input type="radio" name="accident" id="un-accident" required>
+            
+    </label>
+
+    <label for="accident" name="accident">
+        2 accidents
+            <input type="radio" name="accident" id="deux-accidents" required>
+            
+    </label>
+
+    <label for="accident" name="accident">
+        Plus de 2 accidents
+            <input type="radio" name="accident" id="plus-accidents" required>
+            
+    </label>
+    
+</div>
+
+
+<h2>Etes-vous un client fidèle?</h2>
+
+<label for="fidelite" name="fidelite">
+    Moins d'un an de fidélité
+        <input type="radio" name="fidelite" id="moins-fidelite" required>
+        
+</label>
+
+<label for="fidelite" name="fidelite">
+    Plus d'un an de fidélité
+        <input type="radio" name="fidelite" id="plus-fidelite" required>
+        
+</label>
+
+<button id="bouton">Envoyez</button>
+
+</form>
+
+<p id="tarif" style="font-size: 250%; font-weight: bold; color: red" ></p>
+
+</body>
+</html>
